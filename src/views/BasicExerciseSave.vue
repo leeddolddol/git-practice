@@ -4,6 +4,7 @@
     <input type="text" v-model.number="age"/>
     <input type="text" v-model="job"/>
     <button type="button" @click="saveUserInfo">저장</button>
+    <h2>깃 테스트 중입니다.</h2>
   </div>
 </template>
 
