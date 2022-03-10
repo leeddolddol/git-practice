@@ -66,6 +66,16 @@ const routes = [
     name: 'BasicExerciseSave',
     component: () => import(/* webpackChunkName: "about" */ '../views/BasicExerciseSave.vue')
   },
+  {
+    path: '/serverData',
+    name: 'ServerData',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ServerData.vue')
+  },
+  {
+    path: '/exampleView',
+    name: 'ExampleView',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ExampleView.vue')
+  },
 ]
 
 const router = createRouter({
